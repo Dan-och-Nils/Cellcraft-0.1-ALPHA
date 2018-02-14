@@ -531,7 +531,7 @@ public:
 		type = 1;
 		attackStrength = 1;
 		healthPool = 10;
-		thisID.setFillColor(Color::Cyan);
+		thisID.setFillColor(Color::Green);
 		thisID.setSize(Vector2f(sizex, sizey));
 		mission = make_unique<tasks>();
 
@@ -541,7 +541,7 @@ public:
 		type = 1;
 		attackStrength = 1;
 		healthPool = 10;
-		thisID.setFillColor(Color::Cyan);
+		thisID.setFillColor(Color::Green);
 		thisID.setSize(Vector2f(sizex, sizey));
 		thisID.setPosition(where);
 		mission = make_unique<tasks>();
